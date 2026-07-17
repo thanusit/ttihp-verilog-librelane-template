@@ -24,7 +24,8 @@ module tt_um_chip_top #(
     inout wire VDD,
     inout wire VSS,
     `endif
-    inout  wire clk_PAD,
+    // inout  wire clk_PAD,
+    inout  wire clk,
     inout  wire rst_n_PAD,
     inout  wire [NUM_INPUT_PADS-1 :0] input_PAD,
     inout  wire [NUM_OUTPUT_PADS-1:0] output_PAD,
