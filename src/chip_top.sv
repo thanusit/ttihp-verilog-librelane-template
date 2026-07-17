@@ -25,9 +25,9 @@ module tt_um_chip_top #(
     inout wire VSS,
     `endif
     // inout  wire clk_PAD,
-    input  wire       ena,      // always 1 when the design is powered, so you can ignore it
-    input  wire       clk,      // clock
-    input  wire       rst_n     // reset_n - low to reset
+    input  wire   ena,       // always 1 when the design is powered, so you can ignore it
+    input  wire   clk,       // clock
+    input  wire   rst_n,     // reset_n - low to reset
     // inout  wire rst_n_PAD,
     input  wire [NUM_INPUT_PADS-1 :0] input_PAD,
     output  wire [NUM_OUTPUT_PADS-1:0] output_PAD,
