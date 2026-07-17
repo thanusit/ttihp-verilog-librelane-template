@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The chip recieves pulse widths, echo delay time, and number of echo pulse from a microcontroller via SPI communication. The pulse sequence is triggured by a start_pulse signal. 
 
 ## How to test
 
-Explain how to use your project
+Create a mock spi data and feed into the chip through the relevant input_PAD. Measure the tx_drive signal. 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+A microcontroller.
