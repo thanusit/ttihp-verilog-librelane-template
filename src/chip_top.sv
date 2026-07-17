@@ -3,7 +3,7 @@
 
 `default_nettype none
 
-module chip_top #(
+module tt_um_chip_top #(
     // Power/ground pads for core
     parameter NUM_VDD_PADS = 1,
     parameter NUM_VSS_PADS = 1,
